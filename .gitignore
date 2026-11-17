@@ -1,0 +1,33 @@
+# CCS / MSPM0 build outputs
+Debug/
+Release/
+*.out
+*.map
+*.o
+*.obj
+*.d
+*.d_raw
+*.dep
+*.elf
+*.hex
+*.bin
+*.lst
+*.su
+*.xml
+
+# Generated SysConfig/build files outside build folders
+syscfg/
+Event.dot
+device.opt
+device_linker.cmd
+device.cmd.genlibs
+
+# clangd cache
+.clangd/cache/
+**/.clangd/.cache/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
